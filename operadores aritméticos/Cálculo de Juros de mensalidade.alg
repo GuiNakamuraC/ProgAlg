@@ -1,8 +1,8 @@
-algoritmo "Cálculo de Juros de mensalidade"
-// Função : Calcular os Juros da mensalidade
+algoritmo "CÃ¡lculo de Juros de mensalidade"
+// FunÃ§Ã£o : Calcular os Juros da mensalidade
 // Autor : Guilherme Nakamura Carvalho
 // Data : 09/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 
 var
 salM, dd, juros, salario: real
@@ -12,22 +12,22 @@ inicio
 //entrada
 escreval("digite o seu nome: ")
 leia(nome)
-escreval("Digite o mês do pagamento")
+escreval("Digite o mÃªs do pagamento")
 leia (mes)
 escreval("----------------------------------------------")
-escreval("Digite o seu salário mensal: ")
+escreval("Digite o seu salÃ¡rio mensal: ")
 leia(salM)
 escreval("----------------------------------------------")
 escreval("Digite sua quantidade de dias de atrasos: ")
 leia(dd)
 
 //processamento
-juros <- dd * 2/100
+juros <- dd * (dd * 2/100)
 salario <- salM-juros
 
-//saída
+//saÃ­da
 escreval("---------------------RESULTADO---------------------")
 escreval(nome, ", bem vindo (a)ao Programa!!!")
-escreval("Seu salário no mês de: ", mes, " será de: R$", salario)
+escreval("Seu salÃ¡rio no mÃªs de: ", mes, " serÃ¡ de: R$", salario)
 
 fimalgoritmo

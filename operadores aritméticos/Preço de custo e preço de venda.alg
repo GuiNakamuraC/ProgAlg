@@ -1,8 +1,8 @@
-algoritmo "Preço de custo e preço de venda"
-// Função : calcular o custo do preço de venda
+algoritmo "PreÃ§o de custo e preÃ§o de venda"
+// FunÃ§Ã£o : calcular o custo do preÃ§o de venda
 // Autor : Guilherme Nakamura Carvalho
 // Data : 09/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 ValorP, ValorF: real
 nome: caractere
@@ -20,9 +20,9 @@ escreval("----------------------------------------------")
 //processamento
 ValorF <- ValorP+ValorP * 65/100
 
-//saída
+//saÃ­da
 escreval("---------------------RESULTADO---------------------")
 escreval(nome, ", bem vindo (a)ao Programa!!!")
-escreval("O valor é: ", ValorF, ",00")
+escreval("O valor Ã©: R$", ValorF)
 
 fimalgoritmo

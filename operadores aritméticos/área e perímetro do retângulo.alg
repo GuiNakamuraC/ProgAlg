@@ -1,8 +1,8 @@
-algoritmo "Ret‚ngulo"
-// FunÁ„o : calcular a ·rea e perÌmetro de um quadrado
+algoritmo "Ret√¢ngulo"
+// Fun√ß√£o : calcular a √°rea e per√≠metro de um quadrado
 // Autor :  Guilherme Nakamura Carvalho
 // Data : 23/02/2023
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
 
 Base,Altura,resulA,resulP: real
@@ -13,19 +13,21 @@ inicio
 escreval("digite o seu nome: ")
 leia(nome)
 
-escreval("Vamos calcular a ·rea e perÌmetro do ret‚ngulo ")
+escreval("Vamos calcular a √°rea e per√≠metro do ret√¢ngulo ")
 escreval("----------------------------------------------")
-escreval("Digite o lado do quadrado: ")
-leia(lado_Q)
+escreval("Digite a base do ret√¢ngulo: ")
+leia(Base)
+escreval("Digite a altura do ret√¢ngulo ")
+leia(Altura)
 
 //processamento
-resulA <- lado_Q^2
-resulP <- lado_Q*4
+resulA <- Base * Altura
+resulP <- Base + Base + Altura + Altura
 
-//saÌda
+//sa√≠da
 escreval("---------------------RESULTADO---------------------")
 escreval(nome, ", bem vindo (a)ao Programa!!!")
-escreval("A ·rea do Quadrado È: ", resulA)
-escreval("O perÌmetro do Quadrado È: ", resulP)
+escreval("A √°rea do Ret√¢ngulo √© de: ", resulA)
+escreval("O per√≠metro do Ret√¢ngulo √© de: ", resulP)
 
 fimalgoritmo

@@ -1,8 +1,8 @@
-algoritmo "Real em dólar"
-// Função : transformar real em dólar
+algoritmo "Real em dÃ³lar"
+// FunÃ§Ã£o : transformar real em dÃ³lar
 // Autor : Guilherme Nakamura Carvalho
 // Data : 23/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 valorD, valorR, Dolar:real
 nome:caractere
@@ -12,19 +12,19 @@ escreval("digite o seu nome: ")
 leia(nome)
 escreval("----------------------------------------------")
 escreval("Digite o valor em real: ")
-escreva("$")
+escreva("R$")
 leia (valorD)
 escreval("----------------------------------------------")
-escreval("Digite a cotação do dólar em relação com o dólar: ")
+escreval("Digite a cotaÃ§Ã£o do dÃ³lar em relaÃ§Ã£o com o dÃ³lar: ")
 escreva ("R$")
 leia(valorR)
 
 //processamento
 Dolar <- valorD/valorR
 
-//saída
+//saÃ­da
 escreval("---------------------RESULTADO---------------------")
 escreval(nome, ", bem vindo (a)ao Programa!!!")
-escreval("O valor em reais é: $", Dolar)
+escreval("O valor em reais Ã©: $", Dolar)
 
 fimalgoritmo

@@ -1,8 +1,8 @@
-algoritmo "Velocidade Média"
-// Função : Calcular a velocidade média de um automóvel
+algoritmo "Velocidade MÃ©dia"
+// FunÃ§Ã£o : Calcular a velocidade mÃ©dia de um automÃ³vel
 // Autor : Guilherme Nakamura Carvalho
 // Data : 30/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 
 var
 km, T, Vm : real
@@ -12,7 +12,7 @@ inicio
 //entrada
 escreval("digite o seu nome: ")
 leia(nome)
-escreval("Vamos calcular o valor das horas extras para você ", nome)
+escreval("Vamos calcular a velocidade mÃ©dia para vocÃª ", nome)
 escreval("----------------------------------------------")
 escreval("Digite o percurso percorrido: ")
 leia(km)
@@ -25,9 +25,9 @@ escreval("----------------------------------------------")
 //processamento
 Vm <- km / T
 
-//saída
+//saÃ­da
 escreval("---------------------RESULTADO---------------------")
 escreval(nome, ", bem vindo (a)ao Programa!!!")
-escreval("A velocidade média foi de: ", Vm)
+escreval("A velocidade mÃ©dia foi de: ", Vm)
 
 fimalgoritmo

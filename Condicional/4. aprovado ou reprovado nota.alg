@@ -1,8 +1,8 @@
 algoritmo "nota do aluno"
-// Função : medir se o aluno está aprovado ou reprovado
+// FunÃ§Ã£o : medir se o aluno estÃ¡ aprovado ou reprovado
 // Autor : Guilherme Nakamura Carvalho
 // Data : 18/05/2023
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 b1n1, b1n2, b2n1, b2n2, b3n1, b3n2, b4n1, b4n2, m1, m2, m3, m4:inteiro
 m5:real
@@ -35,9 +35,9 @@ m4 <- b4n1 + b4n2
 m5 <- (m1 + m2 + m3 + m4) / 4
 
 se(m5>7) entao
- escreva("Parabéns, você está aprovado!")
+ escreva("ParabÃ©ns, vocÃª estÃ¡ aprovado!")
 senao
- escreva("Você não foi aprovado")
+ escreva("VocÃª nÃ£o foi aprovado")
 fimse
 
 fimalgoritmo

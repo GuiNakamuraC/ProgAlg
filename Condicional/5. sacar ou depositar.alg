@@ -1,8 +1,8 @@
 algoritmo "Temperatura"
-// Função : ver se a temperatura está fria, quente ou normal
+// FunÃ§Ã£o : ver se a temperatura estÃ¡ fria, quente ou normal
 // Autor : Guilherme Nakamura Carvalho
 // Data : 25/05/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 saldo, valor: real
 opcao: caractere
@@ -15,22 +15,22 @@ escreval("Digite 2 para sacar")
 leia(opcao)
 
 se (opcao="1") entao
- escreval("Quanto você quer depositar?")
+ escreval("Quanto vocÃª quer depositar?")
  leia(valor)
  saldo <- saldo + valor
 fimse
 se (opcao="2") entao
- escreval("Quanto você quer sacar?")
+ escreval("Quanto vocÃª quer sacar?")
  leia(valor)
  saldo <- saldo - valor
 fimse
 se ((opcao<>"1") e (opcao<>"2")) entao
- escreval("Quanto você quer depositar?")
+ escreval("Quanto vocÃª quer depositar?")
 fimse
 se (saldo>0) entao
- escreval("Seu saldo é positivo no valor de: R$", saldo)
+ escreval("Seu saldo Ã© positivo no valor de: R$", saldo)
 senao
- escreval("Seu saldo é negativo no valor de: R$", saldo)
+ escreval("Seu saldo Ã© negativo no valor de: R$", saldo)
 fimse
    
 fimalgoritmo

@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 18/05/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 idade:inteiro
 nome:caractere
@@ -15,9 +15,9 @@ escreval("Digite sua idade: ")
 leia(idade)
 
 se(idade>=18) entao
- escreva(nome, " você é maior de idade")
+ escreva(nome, " vocÃª Ã© maior de idade")
 senao
- escreva(nome, " você é menor de idade")
+ escreva(nome, " vocÃª Ã© menor de idade")
 fimse
 
 fimalgoritmo

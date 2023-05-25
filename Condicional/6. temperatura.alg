@@ -1,8 +1,8 @@
 algoritmo "Temperatura"
-// Função : ver se a temperatura é fria, quente ou normal
+// FunÃ§Ã£o : ver se a temperatura Ã© fria, quente ou normal
 // Autor : Guilherme Nakamura Carvalho
 // Data : 25/05/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 temp:real
 
@@ -11,13 +11,13 @@ escreval("Digite a temperatura: ")
 leia(temp)
 
 se(temp<=20) entao
- escreval("Está frio!")
+ escreval("EstÃ¡ frio!")
 fimse
 se(temp<=25) entao
- escreval("A temperatura está normal")
+ escreval("A temperatura estÃ¡ normal")
 fimse
 se(temp>25) entao
- escreval("Está quente!")
+ escreval("EstÃ¡ quente!")
 fimse
 
 fimalgoritmo
